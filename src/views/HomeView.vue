@@ -15,7 +15,7 @@ let burger = false
 
 
     <SecondScreen/>
-
+  <h1><a href="https://www.figma.com/file/kZM2thsEUVNrn97E4beuKt/Untitled-(Copy)?type=design&node-id=1-3&t=hGxF9g0VofjgaN6r-0">YA TUT</a></h1>
   </main>
 </template>
 
