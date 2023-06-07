@@ -66,7 +66,7 @@ export default {};
       transform: translate(0) !important;
       left: -10px !important;
       bottom: 100px !important;
-      rotate: 25deg !important;
+      transform: rotate(25deg) !important;
       top: initial !important;
   }
 }
