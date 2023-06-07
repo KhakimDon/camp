@@ -14,6 +14,7 @@ let burger = false
     <FirstScreen suptitle="exsplore the world" title="Explore The Natural Beauty Of Halmahera With Us 🏝" subtitle="explore the beauty of god's earth in a beautiful forest and have fun" button="Exsplore Now 🔥"/>
 
 
+    <SecondScreen/>
 
   </main>
 </template>
@@ -21,6 +22,7 @@ let burger = false
 <script>
   import FirstScreen from '../components/FirstScreen.vue';
   import Header from '../components/Header.vue';
+  import SecondScreen from '../components/SecondScreen.vue';
   export default{
   data(){
     return{
@@ -29,7 +31,8 @@ let burger = false
   },
   components:{
     FirstScreen,
-    Header
+    Header,
+    SecondScreen
   }
 }
 </script>

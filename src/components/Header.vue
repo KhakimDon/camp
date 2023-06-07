@@ -1,5 +1,5 @@
 <template>
-  <header class="py-[44px] w-[100%] max-w-[1920px] l-0 fixed top-0 z-[99]">
+  <header :class="{fixBurger: this.fixBurger && this.burger == false}" class="duration-[0.3s] py-[44px] w-[100%] max-w-[1920px] l-0 fixed top-0 z-[99]">
     <div class="container 1440:w-[1200px] max-w-[1500px] mx-[auto] h-[100%]">
       <div class="flex items-center justify-between">
         <span
@@ -77,14 +77,38 @@
 export default {
   data(){
     return{
-      burger: false
+      burger: false,
+      fixBurger: false,
+    }
+  },
+  created(){
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  unmounted () {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods:{
+    handleScroll (event) {
+      scrollY > 35? this.fixBurger = true : this.fixBurger = false
+      console.log(this.fixBurger);
+      
     }
   }
 };
 </script>
 
 <style scoped>
-
+.fixBurger{
+  background: rgba(255, 255, 255, 0.364);
+  backdrop-filter: blur(10px);
+  padding: 20px 0px;
+}
+.fixBurger span{
+  color: black;
+}
+.fixBurger svg{
+  color: black;
+}
 .burger{
   height: 100vh;
   width: 100%;

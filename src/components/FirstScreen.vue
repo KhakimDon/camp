@@ -68,10 +68,6 @@ export default {};
       bottom: 100px !important;
       rotate: 25deg !important;
       top: initial !important;
-      animation: anim2 ease 3s !important ;
-      animation-name: anim2 !important;
-      animation-duration: 3s !important;
-    animation-iteration-count: infinite !important;
   }
 }
 .bg-image{
@@ -96,23 +92,7 @@ export default {};
             rotate: 0deg;
     }
 }
-@keyframes anim2 {
-    0%{
-        transform: scale(1) rotate(-25deg);
-    }
-    25%{
-        transform: scale(1.1) rotate(-25deg);
-    }
-    50%{
-        transform: scale(1) rotate(-25deg);
-    }
-    75%{
-        transform: scale(1.25) rotate(-25deg);
-    }
-    100%{
-        transform: scale(1) rotate(-25deg);
-    }
-}
+
 
 
 .gradient {
