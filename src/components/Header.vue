@@ -6,9 +6,10 @@
     <div class="container 1440:w-[1200px] max-w-[1500px] mx-[auto] h-[100%]">
       <div class="flex items-center justify-between">
         <span
-          class="text-white font-[700] text-[20px] font-[poppins] 666:text-[13px] ml-[10px]"
+          class="text-white 666:hidden font-[700] text-[20px] font-[poppins] 666:text-[13px] ml-[10px]"
           >MR.DONIYOR`S CAMP
         </span>
+        <img class="h-[50px] 666:block hidden" src="../assets/icons/logo.png" alt="logo">
         <nav>
           <a
             class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[poppins] font-[500]"
