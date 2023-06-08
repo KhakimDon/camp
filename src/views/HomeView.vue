@@ -12,17 +12,25 @@ let burger = false
 
     <!-- Первый блок -->
     <FirstScreen suptitle="exsplore the world" title="Explore The Natural Beauty Of Halmahera With Us 🏝" subtitle="explore the beauty of god's earth in a beautiful forest and have fun" button="Exsplore Now 🔥"/>
-
-
+    
+    <!-- Второй блок -->
     <SecondScreen/>
-  <h1><a href="https://www.figma.com/file/kZM2thsEUVNrn97E4beuKt/Untitled-(Copy)?type=design&node-id=1-3&t=hGxF9g0VofjgaN6r-0">YA TUT</a></h1>
+
+    <!-- Третий блок -->
+    <FourthScreen/>
+    
+    <!-- Третий блок -->
+    <ThirdScreen class="mb-[100px]"/>
+
   </main>
 </template>
 
 <script>
   import FirstScreen from '../components/FirstScreen.vue';
+import FourthScreen from '../components/FourthScreen.vue';
   import Header from '../components/Header.vue';
   import SecondScreen from '../components/SecondScreen.vue';
+import ThirdScreen from '../components/ThirdScreen.vue';
   export default{
   data(){
     return{
@@ -32,8 +40,12 @@ let burger = false
   components:{
     FirstScreen,
     Header,
-    SecondScreen
-  }
+    SecondScreen,
+    ThirdScreen,
+    FourthScreen
+}
 }
 </script>
 
+,
+    ThirdScreen

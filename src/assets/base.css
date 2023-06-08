@@ -11,6 +11,11 @@
     box-shadow: 0px 0px #da4942;
 }
 
+.gy:hover .yg{
+    transform: translateY(8px);
+    box-shadow: 0px 0px #da4942;
+}
+
 @media screen and (max-width: 666px) {
     .yg{
         background: linear-gradient(#FF7B4E,#FF584E);
