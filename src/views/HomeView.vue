@@ -5,7 +5,7 @@ let burger = false
 </script> -->
 
 <template>
-  <main>
+  <main class="max-w-[2000px] mx-auto">
     <!-- шапка  -->
     <Header />
 
@@ -21,18 +21,24 @@ let burger = false
     <SecondScreen />
 
     <!-- Третий блок -->
-    <Sponsors />
-    
-    <!-- Третий блок -->
     <FourthScreen />
+
+    <!-- Третий блок -->
+    <ThirdScreen class="mb-[100px]" />
+
+    <!-- Форма -->
+    <Form />
     
     <!-- Четверный блок -->
-    <ThirdScreen class="mb-[100px]" />
+    <Sponsors />
+
   </main>
 </template>
 
+
 <script>
 import FirstScreen from "../components/FirstScreen.vue";
+import Form from "../components/Form.vue";
 import FourthScreen from "../components/FourthScreen.vue";
 import Header from "../components/Header.vue";
 import SecondScreen from "../components/SecondScreen.vue";
@@ -51,6 +57,7 @@ export default {
     ThirdScreen,
     FourthScreen,
     Sponsors,
+    Form,
   },
 };
 </script>

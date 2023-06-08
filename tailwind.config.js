@@ -19,6 +19,6 @@ module.exports = {
       '1300': {'max': '1300px'}
     }
   },
-  plugins: [],
+  plugins: ['@tailwindcss/forms'],
 }
 

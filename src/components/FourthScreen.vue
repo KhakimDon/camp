@@ -1,6 +1,6 @@
 <template>
   <h1
-    class="mt-[200px] 666:mt-[100px] 666:mb-[0px] 1200:text-[40px] heading 666:text-[20px] text-[60px] mb-[40px] pop font-[poppins] text-center font-[500]"
+    class="mt-[150px] 666:mt-[100px] 666:mb-[0px] 1200:text-[40px] heading 666:text-[20px] text-[60px] mb-[40px] pop font-[poppins] text-center font-[500]"
   >
     Why us ?
   </h1>
