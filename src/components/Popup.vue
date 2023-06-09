@@ -1,14 +1,14 @@
 <template>
   <div
-    class="b h-[400px] rounded-[40px] flex flex-col justify-center items-center p-[40px] w-[600px] fixed left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%] z-[9999]"
+    class="b h-[400px] 666:h-[350px] 666:w-[95%] 666:p-[20px] rounded-[40px] flex flex-col justify-center items-center p-[40px] w-[600px] fixed left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%] z-[9999]"
   >
-    <div class="bg-[#da4942] mb-[20px] w-[90px] h-[90px] relative flex items-center justify-center rounded-[50%]">
+    <div class="bg-[#da4942] mb-[20px] w-[70px] h-[70px] relative flex items-center justify-center rounded-[50%]">
         <svg
       fill="none"
       viewBox="0 0 24 24"
       stroke-width="1.5"
       stroke="currentColor"
-      class="h-[60px] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] w-[60px] text-[white]"
+      class="h-[45px] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] w-[45px] text-[white]"
     >
       <path
         stroke-linecap="round"
@@ -17,7 +17,7 @@
       />
     </svg>
     </div>
-    <span class="text-center text-[25px] font-[poppins] "
+    <span class="text-center text-[25px] 666:text-[20px] font-[poppins] "
       >Request sent successfully. During the day, Swami will be contacted</span
     >
     <button @click="this.$emit('closeResponse')" class="yg mt-[20px] w-[100%] py-[13px] rounded-[20px] text-[white] text-[20px]">OKEY NICE !</button>
