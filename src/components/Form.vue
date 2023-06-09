@@ -1,27 +1,6 @@
 <template>
-  <!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
-  <!--
-  This example requires updating your template:
 
-  ```
-  <html class="h-full bg-white">
-  <body class="h-full">
-  ```
--->
-  <div class="w-[666px] 666:w-[100%] mx-auto">
+  <div id="write" class="w-[666px] 666:w-[100%] mx-auto">
     <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
       <div class="sm:mx-auto sm:w-full sm:max-w-sm">
         <img
@@ -97,13 +76,17 @@
       </div>
     </div>
   </div>
+  <Popup @closeResponse="this.response = false" :class="{active: this.response}"/>
 </template>
 
 <script>
+import Popup from './Popup.vue';
 export default {
+  components: { Popup },
  
   data() {
     return {
+      response: false,
       username: "",
       usernumber: "",
 
@@ -117,7 +100,6 @@ export default {
       let fullmessage = `Имя клиента: ${this.username} \n
       
       Телефон номер: ${this.usernumber}`;
-      console.log(fullmessage);
       // console.log(this.$http);
       // let a = `https://api.telegram.org/bot${this.token}:AAEti3PIansCHmv1kPY_HSki4Q8wq2PJa5c/sendMessage?chat_id=${this.chatId}&text=${fullmessage}`;
 
@@ -127,6 +109,9 @@ export default {
       this.$http.post(api).then(
         (response) => {
           console.log("Succsessfully!", response.data);
+          this.response = true
+          this.username = ''
+          this.usernumber = ''
         },
         (error) => {
           console.log(error);
@@ -152,6 +137,12 @@ export default {
 </script>
 
 <style>
+.active{
+  opacity: 100% !important;
+  pointer-events: visible !important;
+  transform: scale(1) translate(-50%,-50%) !important;
+
+}
 .yg {
   background: linear-gradient(#ff7b4e, #ff584e);
   box-shadow: 0px 8px #da4942;

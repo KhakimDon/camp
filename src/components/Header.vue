@@ -11,39 +11,41 @@
         </span>
         <img class="h-[50px] 666:block hidden" src="../assets/icons/logo.png" alt="logo">
         <nav>
-          <a
+          <a :class="{t: this.fixBurger}"
             class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[poppins] font-[500]"
             href="#"
             >Home</a
           >
-          <a
+          <a :class="{t: this.fixBurger}"
             class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[poppins] font-[500]"
             href="#"
             >Services</a
           >
-          <a
+          <a :class="{t: this.fixBurger}"
             class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[poppins] font-[500]"
             href="#"
             >Pricing</a
           >
-          <a
+          <a :class="{t: this.fixBurger}"
             class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[poppins] font-[500]"
             href="#"
             >Contack</a
           >
         </nav>
         <div class="flex items-center">
-          <a
+          <a  :class="{t: this.fixBurger}"
             href="tel:998915491754"
             class="text-[15px] text-white font-[500] 666:hidden"
             >+998 (91) 549-17-54</a
           >
+          <a href="#write">
           <button
             class="yg px-[44px] py-[13px] rounded-[20px] text-white font-[600] ml-[22px] 666:px-[20px] 666:py-[8px] 666:text-[13px]"
           >
             Написать нам
           </button>
-          <button @click="this.burger = true" class="hidden 666:block">
+          </a>
+            <button @click="this.burger = true" class="hidden 666:block">
             <svg
               fill="white"
               viewBox="0 0 24 24"
@@ -159,6 +161,9 @@ export default {
   top: 0;
   clip-path: ellipse(13% 13% at 96% 16%);
   transition-duration: 0.5s;
+}
+.t{
+  color: black !important;
 }
 .burgerActive {
   pointer-events: visible !important;

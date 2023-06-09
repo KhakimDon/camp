@@ -11,11 +11,12 @@
     <img  class="h-[130px] 1200:h-[70px] 666:mx-[30px] 666:mb-[60px] grayscale duration-[.3s] hover:grayscale-0" src="../assets/mrdoniyor.png" alt="mrdoniyor">
   </div>
   <hr class="border-[1px] mb-[50px] mt-[150px]">
-  <div class="max-w-[1500px] flex pb-[100px] items-center justify-between mx-auto 666:w-[95%]">
-    <span class="font-[poppins] text-[50px]">Contacts:</span>
-    <a href="tel:+998915491754" class="font-[poppins] text-[20px] yg text-white px-[20px] py-[10px] rounded-[20px]">+998 (91) 549-17-54</a>
-    <a href="tel:+998915491754" class="font-[poppins] text-[20px] yg text-white px-[20px] py-[10px] rounded-[20px]">+998 (91) 549-17-54</a>
-    <a href="tel:+998915491754" class="font-[poppins] text-[20px] yg text-white px-[20px] py-[10px] rounded-[20px]">+998 (91) 549-17-54</a>
+
+  <div class="max-w-[1500px] 666:flex-col 1500:max-w-[95%] flex 1200:flex-wrap pb-[100px] items-center justify-between mx-auto 666:w-[95%]">
+    <span class="font-[poppins] 1200:mb-[30px] 1200:text-[40px] 1200:block 1200:w-[100%] text-[50px]">Contacts:</span>
+    <a href="tel:+998915491754" class="666:mb-[30px] 666:mt-[20px] font-[poppins] text-[20px] yg text-white px-[20px] py-[10px] rounded-[20px]">+998 (91) 549-17-54</a>
+    <a href="tel:+998915491754" class="666:mb-[30px] font-[poppins] text-[20px] yg text-white px-[20px] py-[10px] rounded-[20px]">+998 (91) 549-17-54</a>
+    <a href="tel:+998915491754" class="666:mb-[30px] font-[poppins] text-[20px] yg text-white px-[20px] py-[10px] rounded-[20px]">+998 (91) 549-17-54</a>
   </div>
 </template>
 
