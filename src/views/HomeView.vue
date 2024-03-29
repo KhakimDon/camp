@@ -3,7 +3,7 @@
 let burger = false
 // import TheWelcome from '../components/TheWelcome.vue'
 </script> -->
-
+<!-- mrdoniyor_camp -->
 <template>
   <main class="max-w-[2000px] mx-auto">
     <!-- шапка  -->
@@ -11,17 +11,18 @@ let burger = false
 
     <!-- Первый блок -->
     <FirstScreen
-      suptitle="exsplore the world"
-      title="Explore The Natural Beauty Of Halmahera With Us 🏝"
-      subtitle="explore the beauty of god's earth in a beautiful forest and have fun"
-      button="Exsplore Now 🔥"
-    />
+      id="home"
+      title=" Здесь три месяца длятся каникулы летом,
+Забудь про учебу смелее. 🏝"
+      subtitle="Вместе с «Mr.Doniyor's Camp» "
+      button="Поехали 🔥"
+    />  
 
     <!-- Второй блок -->
-    <SecondScreen />
+    <SecondScreen id="fun" />
 
     <!-- Третий блок -->
-    <FourthScreen />
+    <FourthScreen  />  
 
     <!-- Третий блок -->
     <ThirdScreen class="mb-[100px]" />

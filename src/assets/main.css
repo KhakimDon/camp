@@ -1,2 +1,90 @@
 @import './base.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@media screen and (max-width: 1600px) {
+    header {
+        padding: 10px 0px !important;
+    }
+
+    div[data-v-a639d7e5] {
+        padding: 0px 20px;
+        transform: scale(0.9);
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    h1[data-v-a639d7e5] {
+        width: 100% !important;
+    }
+
+    div[data-v-a639d7e5] {
+        padding: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    a[data-v-a639d7e5]{
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .happy-moments-container {
+        display: flex;
+        height: max-content !important;
+        justify-content: center;
+        gap: 5px;
+        max-width: 1500px;
+        margin: auto;
+        flex-wrap: wrap !important;
+    }
+
+    .video1 {
+        height: 250px !important;
+        width: 50% !important;
+        object-fit: cover !important;
+        border-radius: 0px 0 0 0 !important;
+    }
+
+    .video2 {
+        height: 250px !important;
+        width: initial !important;
+        object-fit: cover;
+
+    }
+    .nonnnn{
+        display: block !important;
+    }
+    .kepptothebalance{
+        width: 100% !important;
+    }
+
+    .happy-wrapper {
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .happy-wrapper figure {
+        width: 100% !important;
+    }
+
+    .happy-wrapper img {
+        height: 100%;
+        width: 100% !important;
+        object-fit: cover !important;
+    }
+
+    .video3 {
+        height: 250px;
+        width: 48% !important;
+        object-fit: cover !important;
+        order: -1;
+        border-radius: 0 0 0 0 !important;
+    }
+}
+
+.nonnnn{
+    display: none;
+}

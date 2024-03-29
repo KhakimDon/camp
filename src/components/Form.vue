@@ -1,6 +1,6 @@
 <template>
 
-  <div id="write" class="w-[666px] 666:w-[100%] mx-auto">
+  <div id="write" class="w-[666px] mt-[150px] 666:w-[100%] mx-auto">
     <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
       <div class="sm:mx-auto sm:w-full sm:max-w-sm">
         <img
@@ -11,7 +11,7 @@
         <h2
           class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900"
         >
-          FeedBack
+          Оставить заявку.
         </h2>
       </div>
 
@@ -97,7 +97,7 @@ export default {
   },
   methods: {
     send() {
-      let fullmessage = `Имя клиента: ${this.username} \n
+          let fullmessage = `Имя клиента: ${this.username} \n
       
       Телефон номер: ${this.usernumber}`;
       // console.log(this.$http);
@@ -107,7 +107,7 @@ export default {
 
 
       this.$http.post(api).then(
-        (response) => {
+        (response) => { 
           console.log("Succsessfully!", response.data);
           this.response = true
           this.username = ''

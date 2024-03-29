@@ -4,24 +4,24 @@
     <div
       class="max-w-[1500px] 666:max-h-[650px]  1024:items-center container 1440:w-[1200px] mx-[auto] 1024:h-[850px] h-[100%] flex justify-center items-start flex-col"
     >
-      <span
-        class="block bg-[#648E76] 666:text-[12px] text-white font-[poppins] text-[18px] w-[max-content] px-[30px] py-[11px] rounded-[15px]"
+      <a href="https://www.instagram.com/mrdoniyor_camp/"
+        class="block bg-[#648E76] 666:text-[12px] flex text-white font-[poppins] text-[18px] w-[max-content] px-[15px] py-[11px] rounded-[15px]"
       >
-        {{ suptitle }}
-      </span>
+        <img class="h-[26px] mr-[5px]" src="../assets/instagram.png" alt="insta"> Mrdoniyors_camp
+  </a>
       <h1
-        class="text-white mt-[7px] 666:text-[30px]  1024:text-center 1024:max-w-[90%] font-[poppins] text-[55px] max-w-[660px] font-[600]"
+        class="text-white mt-[7px] 666:text-[30px]  1024:text-center 1024:max-w-[90%] font-[Montserrat] text-[50px] max-w-[750px] font-[1000]"
       >
-        {{ title }}
+        {{ title }} 
       </h1>
-      <p class="text-[#93A79D] mt-[30px] 666:text-[20px] 666:w-[100%]  1024:text-center text-[25px] font-[500] w-[519px]">
+      <p class="text-[#93A79D] font-[Montserrat] mt-[30px] 666:text-[20px] 666:w-[100%]  1024:text-center text-[25px] font-[500] w-[519px]">
         {{ subtitle }}
       </p>
-      <button
+      <a href="#write"
         class="yg rounded-[27px] text-white mt-[68px] 666:px-[35px] 666:py-[20px] 666:mt-[30px]  666:text-[3s0px]  text-[25px] font-[600] px-[47px] py-[27px]"
       >
         {{ button }}
-      </button>
+    </a>
     </div>
   </section>
 </template>

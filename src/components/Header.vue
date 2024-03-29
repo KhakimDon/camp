@@ -7,36 +7,37 @@
       <div class="flex items-center justify-between">
         <span
           class="text-white 666:hidden font-[700] text-[20px] font-[poppins] 666:text-[13px] ml-[10px]"
-          >MR.DONIYOR`S CAMP
+          >
+          <img class="h-[65px]" src="../assets/camperlogo.png" alt="camplogo">
         </span>
         <img class="h-[50px] 666:block hidden" src="../assets/icons/logo.png" alt="logo">
         <nav>
           <a :class="{t: this.fixBurger}"
-            class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[poppins] font-[500]"
+            class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[Montserrat] font-[500]"
             href="#"
-            >Home</a
+            >Главная </a  
           >
           <a :class="{t: this.fixBurger}"
-            class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[poppins] font-[500]"
-            href="#"
-            >Services</a
+            class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[Montserrat] font-[500]"
+            href="#fun"
+            >Наше веселье</a
           >
           <a :class="{t: this.fixBurger}"
-            class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[poppins] font-[500]"
-            href="#"
-            >Pricing</a
+            class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[Montserrat] font-[500]"
+            href="#get"
+            >Вы получите  </a
           >
           <a :class="{t: this.fixBurger}"
-            class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[poppins] font-[500]"
-            href="#"
-            >Contack</a
+            class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[Montserrat] font-[500]"
+            href="#contacts"
+            >Контакты</a
           >
         </nav>
         <div class="flex items-center">
           <a  :class="{t: this.fixBurger}"
-            href="tel:998915491754"
+            href="tel:998977430537"
             class="text-[15px] text-white font-[500] 666:hidden"
-            >+998 (91) 549-17-54</a
+            >+998(97) 743-05-37</a
           >
           <a href="#write">
           <button
@@ -84,25 +85,29 @@
             />
           </svg>
         </li>
-        <li
-          class="text-white my-[10px] yg text-[22px] px-[10px] py-[2px] w-[120px] rounded-[10px] flex justify-center"
+        <li 
+          class="text-white my-[10px] yg text-[14px] px-[10px] py-[2px] w-[120px] rounded-[10px] flex justify-center"
         >
-          Home
+          <a href="#home">Главная</a>
         </li>
         <li
-          class="text-white my-[10px] yg text-[22px] px-[10px] py-[2px] w-[120px] rounded-[10px] flex justify-center"
+          class="text-white my-[10px] yg text-[14px] px-[10px] py-[2px] w-[120px] rounded-[10px] flex justify-center"
         >
-          Services
+        
+        <a href="#fun">Наше веселье</a>
         </li>
         <li
-          class="text-white my-[10px] yg text-[22px] px-[10px] py-[2px] w-[120px] rounded-[10px] flex justify-center"
+          class="text-white my-[10px] yg text-[14px] px-[10px] py-[2px] w-[120px] rounded-[10px] flex justify-center"
         >
-          Pricing
+        
+        <a href="#get">Вы получите </a>
         </li>
         <li
-          class="text-white my-[10px] yg text-[22px] px-[10px] py-[2px] w-[120px] rounded-[10px] flex justify-center"
+          class="text-white my-[10px] yg text-[14px] px-[10px] py-[2px] w-[120px] rounded-[10px] flex justify-center"
         >
-          Contact
+        
+        <a href="#contacts  ">Контакты</a>
+
         </li>
         <li
           class="text-white my-[10px] yg text-[12px] px-[10px] py-[2px] rounded-[10px] flex justify-end"

@@ -7,31 +7,48 @@
     :modules="modules"
     class="mySwiper"
   >
+  <swiper-slide>
+        <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
+          <img class="h-[100%] w-[100%] object-covers" src="src/assets/15.jpg" alt="">
+        </div>
+    </swiper-slide>
+    <swiper-slide>
+        <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
+          <img class="h-[100%] w-[100%] object-covers" src="src/assets/16.jpg" alt="">
+        </div>
+    </swiper-slide>
     <swiper-slide class="swiper-slide">
         <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
-            <img class="h-[100%] w-[100%] object-covers" src="https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=948&q=80" alt="">
+            <img class="h-[100%] w-[100%] object-covers" src="src/assets/12.jpg" alt="">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
-                <img class="h-[100%] w-[100%] object-covers" src="https://images.unsplash.com/photo-1471115853179-bb1d604434e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" alt="">
+          <img class="h-[100%] w-[100%] object-covers" src="src/assets/13.jpg" alt="">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
-            <img class="h-[100%] w-[100%] object-covers" src="https://images.unsplash.com/photo-1525811902-f2342640856e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="">
+          <img class="h-[100%] w-[100%] object-covers" src="src/assets/14.jpg" alt="">
+        </div>
+    </swiper-slide>
+ 
+    <swiper-slide>
+        <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
+          <img class="h-[100%] w-[100%] object-covers" src="src/assets/17.jpg" alt="">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
-            <img class="h-[100%] w-[100%] object-covers" src="https://images.unsplash.com/photo-1492648272180-61e45a8d98a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+          <img class="h-[100%] w-[100%] object-covers" src="src/assets/18.jpg" alt="">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
-            <img class="h-[100%] w-[100%] object-covers" src="https://images.unsplash.com/photo-1594495894542-a46cc73e081a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="">
+          <img class="h-[100%] w-[100%] object-covers" src="src/assets/19.jpg" alt="">
         </div>
     </swiper-slide>
+
 
   </swiper>
 </template>
