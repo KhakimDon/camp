@@ -9,43 +9,43 @@
   >
   <swiper-slide>
         <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
-          <img class="h-[100%] w-[100%] object-covers" src="src/assets/15.jpg" alt="">
+          <img class="h-[100%] w-[100%] object-covers" src="../assets/15.jpg" alt="">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
-          <img class="h-[100%] w-[100%] object-covers" src="src/assets/16.jpg" alt="">
+          <img class="h-[100%] w-[100%] object-covers" src="../assets/16.jpg" alt="">
         </div>
     </swiper-slide>
     <swiper-slide class="swiper-slide">
         <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
-            <img class="h-[100%] w-[100%] object-covers" src="src/assets/12.jpg" alt="">
+            <img class="h-[100%] w-[100%] object-covers" src="../assets/12.jpg" alt="">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
-          <img class="h-[100%] w-[100%] object-covers" src="src/assets/13.jpg" alt="">
+          <img class="h-[100%] w-[100%] object-covers" src="../assets/13.jpg" alt="">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
-          <img class="h-[100%] w-[100%] object-covers" src="src/assets/14.jpg" alt="">
+          <img class="h-[100%] w-[100%] object-covers" src="../assets/14.jpg" alt="">
         </div>
     </swiper-slide>
  
     <swiper-slide>
         <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
-          <img class="h-[100%] w-[100%] object-covers" src="src/assets/17.jpg" alt="">
+          <img class="h-[100%] w-[100%] object-covers" src="../assets/17.jpg" alt="">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
-          <img class="h-[100%] w-[100%] object-covers" src="src/assets/18.jpg" alt="">
+          <img class="h-[100%] w-[100%] object-covers" src="../assets/18.jpg" alt="">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="h-[100%] w-[100%] overflow-hidden rounded-[35px] bg-[gray]">
-          <img class="h-[100%] w-[100%] object-covers" src="src/assets/19.jpg" alt="">
+          <img class="h-[100%] w-[100%] object-covers" src="../assets/19.jpg" alt="">
         </div>
     </swiper-slide>
 

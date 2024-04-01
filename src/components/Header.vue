@@ -10,7 +10,7 @@
           >
           <img class="h-[65px]" src="../assets/camperlogo.png" alt="camplogo">
         </span>
-        <img class="h-[50px] 666:block hidden" src="../assets/icons/logo.png" alt="logo">
+        <img class="h-[50px] 666:block hidden" src="../assets/camperlogo.png" alt="camperlogo">
         <nav>
           <a :class="{t: this.fixBurger}"
             class="mx-[20px] 1024:hidden text-white hover:text-[orangered] duration-[.3s] font-[Montserrat] font-[500]"
@@ -143,8 +143,7 @@ export default {
 
 <style scoped>
 .fixBurger {
-  background: rgba(255, 255, 255, 0.364);
-  backdrop-filter: blur(10px);
+  background: #28553E;
   padding: 20px 0px;
 }
 .fixBurger span {
@@ -168,7 +167,7 @@ export default {
   transition-duration: 0.5s;
 }
 .t{
-  color: black !important;
+  color: white !important;
 }
 .burgerActive {
   pointer-events: visible !important;

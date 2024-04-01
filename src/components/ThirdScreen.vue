@@ -4,14 +4,14 @@
     Счастливые кадры :)</h1>
 
     <div class="happy-moments-container">
-      <video  muted autoplay loop class="h-[100%] video1" src="../assets/movie1.MOV"></video>
+      <video  muted autoplay loop class="h-[100%] video1" src="/public/movie1.mp4"></video>
       <div class="happy-wrapper">
         <figure class="w-[100%] h-[50%]">
           <img src="../assets/movie2.jpg" alt="image">
         </figure>
-        <video autoplay muted loop class="video2" src="../assets/movie3.MOV"></video>
+        <video autoplay muted loop class="video2" src="/public/movie3.mp4"></video>
       </div>
-      <video autoplay muted loop class="video3" src="../assets/movie4.MOV"></video>
+      <video autoplay muted loop class="video3" src="/public/movie4.mp4"></video>
     </div>
 
 </template>

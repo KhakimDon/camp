@@ -1,6 +1,6 @@
 <template>
   <section class="gradient overflow-hidden 666:h-[800px] h-[100vh] max-h-[1000px] w-[100%] relative">
-    <img class="bg-image 1440:h-[50%] 1440:right-[150px]  right-[200px] h-[70%]" src="../assets/icons/logo.png" alt="logo">
+    <img class="bg-image 1440:h-[50%] 1440:right-[150px]  right-[200px] h-[70%]" src="../assets/camperlogo.png" alt="logo">
     <div
       class="max-w-[1500px] 666:max-h-[650px]  1024:items-center container 1440:w-[1200px] mx-[auto] 1024:h-[850px] h-[100%] flex justify-center items-start flex-col"
     >
@@ -73,7 +73,6 @@ export default {};
 .bg-image{
     position: absolute;
     mix-blend-mode: hard-light;
-    rotate: 30deg;
     top: 50%;
     transform: translateY(-50%);
     animation-name: anim;
@@ -81,22 +80,23 @@ export default {};
     animation-iteration-count: infinite;
 }
 
-@keyframes anim {
-    0%{
-        rotate: 0deg;
-    }
-    50%{
-        rotate: 30deg;
-    }
-    100%{
-            rotate: 0deg;
-    }
-}
-
 
 
 .gradient {
   background: linear-gradient(135deg, #387852, #122221);
   clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 50% 100%, 0 90%);
+}
+
+@media screen and (max-width: 500px) {
+  .bg-image{
+      height: 200px !important;
+      transform: translateX(90px) !important;
+      left: 50%;
+      position: absolute;
+      bottom: 50px !important;
+      rotate: 0deg !important;
+      animation: none !important;
+      top: initial !important;
+  }
 }
 </style>

@@ -4,8 +4,8 @@
     <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
       <div class="sm:mx-auto sm:w-full sm:max-w-sm">
         <img
-          class="mx-auto h-[140px] w-auto"
-          src="../assets/icons/logo.png"
+          class="mx-auto bg-[#316949] rounded-[17px] h-[140px] w-auto"
+          src="../assets/camperlogo.png"
           alt="Your Company"
         />
         <h2
@@ -21,7 +21,7 @@
             <label
               for="name"
               class="block text-sm font-medium leading-6 text-gray-900"
-              >Your name</label
+              >Имя</label
             >
             <div class="mt-2">
               <input
@@ -42,7 +42,7 @@
               <label
                 for="password"
                 class="block text-sm font-medium leading-6 text-gray-900"
-                >Password</label
+                >Телефон</label
               >
             </div>
             <div class="mt-2">
@@ -50,7 +50,7 @@
                 v-model="usernumber"
                 id="password"
                 @input="input()"
-                placeholder="+998 91 549-17-54"
+                placeholder="+998 97 777-77-77"
                 name="user_phone"
                 type="text"
                 autocomplete="current-password"
