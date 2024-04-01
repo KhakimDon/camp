@@ -1,6 +1,6 @@
 <template>
   <section class="gradient overflow-hidden 666:h-[800px] h-[100vh] max-h-[1000px] w-[100%] relative">
-    <img class="bg-image 1440:h-[50%] 1440:right-[150px]  right-[200px] h-[70%]" src="../assets/camperlogo.png" alt="logo">
+    <img class="bg-image 1440:h-[50%] 1440:right-[150px]  right-[200px] h-[50%]" src="../assets/camperlogo.png" alt="logo">
     <div
       class="max-w-[1500px] 666:max-h-[650px]  1024:items-center container 1440:w-[1200px] mx-[auto] 1024:h-[850px] h-[100%] flex justify-center items-start flex-col"
     >
@@ -89,8 +89,9 @@ export default {};
 
 @media screen and (max-width: 500px) {
   .bg-image{
-      height: 200px !important;
-      transform: translateX(90px) !important;
+    display: none;
+      /* height: 200px !important; */
+      transform: translateX(50%) !important;
       left: 50%;
       position: absolute;
       bottom: 50px !important;

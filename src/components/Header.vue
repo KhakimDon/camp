@@ -109,11 +109,7 @@
         <a href="#contacts  ">Контакты</a>
 
         </li>
-        <li
-          class="text-white my-[10px] yg text-[12px] px-[10px] py-[2px] rounded-[10px] flex justify-end"
-        >
-          call (91) 549-17-54
-        </li>
+    
       </ul>
     </div>
   </header>
